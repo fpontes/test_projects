@@ -22,7 +22,7 @@ end
 
 When(/^click on button "([^"]*)"$/) do |arg1|
 	find(:xpath, "html/body/div[5]/div[1]/div/div/div[1]/form/div[4]/div/input").click
-
+sleep(2)
 end
 
 Then(/^I hope to get the message "([^"]*)"$/) do |alerta|
