@@ -2,7 +2,7 @@ Given(/^access the url "([^"]*)"$/) do |arg1|
 visit(arg1)
 window = Capybara.current_session.driver.browser.manage.window
 window.maximize
-sleep(2)
+sleep(3)
 
 end
 
