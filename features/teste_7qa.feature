@@ -4,7 +4,7 @@ Feature: Functionality developed for knowledge tests
 
 Scenario: Form Fill with random data
     Given access the url "http://sevenqa.com/pt/index.php"
-    And click on "contato"
+    And click on contato
 	And fill name and e-mail
 	And write a message
 	When click on button "Enviar Mensagem"
