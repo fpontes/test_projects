@@ -1,6 +1,7 @@
 
 require 'capybara/cucumber'
 require 'pry'
+require 'ffaker'
 
 
 include Capybara::DSL
